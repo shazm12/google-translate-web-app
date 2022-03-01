@@ -8,12 +8,12 @@ The web app uses the **Google Translation API** to translate from the source tex
 
 # 🛠️ Installation and Setup
 
-1. First you need to clone the repo and there is no change needed for the html and js files.
+1. First you need to clone the repo and there is no change needed for the **html and js** files.
 2. For backend, first setup the *Node JS* backend using this command - 
 ``` console
 npm init -y
 ```
-3. Then just install the dependencies of the backend API using this command - 
+3. Then just install the dependencies of the *backend API* using this command - 
 ``` console
 npm install
 ```
