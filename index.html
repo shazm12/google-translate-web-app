@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Translate API</title>
+</head>
+<body>
+
+    <div class="main">
+        <h1 class="title">Google Language Translator</h1>
+        <div class="lang_container">
+            <h3>Source Language</h3>
+            <input id="sourceLang" name="source" type="text" placeholder="example- en" />
+            <h3>Target Language</h3>
+            <input type="text" id="targetLang" name="target" placeholder="example - fr" />
+        </div>
+        <div class="text_container">
+        <h2>Text</h2>
+            <input type="text" id="Text" name="text" placeholder="Hello" />
+            <button onclick="Translate()">Submit</button>
+            <a href="https://cloud.google.com/translate/docs/languages">See all the languages available</a>
+        </div>
+        <div class="result_container">
+            <div class="result_ans_container">
+                <h2>Orignal</h2>
+                <p id="sourceAns"></p>
+            </div>
+            <div class="result_ans_container"> 
+                <h2>Translated</h2>
+                <p id="targetAns"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+</body>
+</html>
