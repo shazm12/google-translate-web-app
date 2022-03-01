@@ -1,5 +1,8 @@
 # 🗣️ Translator Web App using Google Translation API
 
+![result](https://user-images.githubusercontent.com/64892076/156219325-8307ad40-4467-4501-9511-12ddb699e72d.png)
+
+
 The web app uses the **Google Translation API** to translate from the source text in an given *source* language to text in the *target* language which is the language you want to **translate** your original or *source* text to.
 
 
